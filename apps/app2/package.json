@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "app2",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 5000"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "8.4.0",
+    "next": "14.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "typescript": "5.5.3"
+  }
+}

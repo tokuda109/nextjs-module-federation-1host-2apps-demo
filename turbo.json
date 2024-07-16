@@ -1,0 +1,8 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "host#dev": {
+      "cache": false
+    }
+  }
+}
